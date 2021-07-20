@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5400950879356696218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5400950879356696216}
+  - component: {fileID: 5400950879356696219}
+  m_Layer: 0
+  m_Name: EnemyCreater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5400950879356696216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400950879356696218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5400950879356696219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400950879356696218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd94fa3b075e0046b70bef0f8eae209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 4358430296848153582, guid: 5e95a77de74960f40a94a0739054eae3, type: 3}
+  enemyCount: 12
+  enemysN:
+  - {fileID: 7557486195378603260, guid: 5f6a6754fb26c3441b98c1403a97225b, type: 3}
+  - {fileID: 4315006967067313957, guid: 8e803741b5c73474b80b882b738434cf, type: 3}
+  - {fileID: 5702740130646423518, guid: 9da8ce87a2867b749816e5dbe3b9acf7, type: 3}
+  enemysR:
+  - {fileID: 737533710962867322, guid: d12f80715363f5d439718d90dfca9c03, type: 3}
+  - {fileID: 113997435835508630, guid: fcfd2110a7cac35438da338a7bd71369, type: 3}
+  - {fileID: 3372765078312220339, guid: 7e9ea979c102f874e8e4c13238ef1bc1, type: 3}
+  enemysB:
+  - {fileID: 7706473300147145050, guid: 79ab6d5db8c2f8b40baed81d4d7c7008, type: 3}
+  - {fileID: 2634193679815306209, guid: f2766b0bd4252ff4cbb9d434d2fc7d14, type: 3}
+  enemys: []
